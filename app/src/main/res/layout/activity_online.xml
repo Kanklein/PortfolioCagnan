@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="202dp"
+        android:layout_height="317dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="303dp"
+        android:contentDescription="@string/profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@drawable/_0180314_150535" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="151dp"
+        android:fontFamily="serif"
+        android:text="@string/i_m_not_as_active_on_many_social_platforms_since_i_prefer_to_not_be_included_in_others_problems_but_on_occasion_i_do_check_them_from_time_to_time_for_any_news_around_me_or_opportunities"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#352F2F"
+        android:fontFamily="serif"
+        android:text="@string/visit_me_on_facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <Button
+        android:id="@+id/btnOldsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#352F2F"
+        android:fontFamily="serif"
+        android:text="@string/visit_me_on_my_old_website"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">PortfolioCagnan</string>
+    <string name="profile">Profile</string>
+    <string name="i_m_not_as_active_on_many_social_platforms_since_i_prefer_to_not_be_included_in_others_problems_but_on_occasion_i_do_check_them_from_time_to_time_for_any_news_around_me_or_opportunities">I\'m not as active on many social platforms since I prefer to not be included in others problems but on occasion I do check them from time to time for any news around me or opportunities</string>
+    <string name="visit_me_on_facebook">Visit me on Facebook?</string>
+    <string name="visit_me_on_my_old_website">Visit me on my old Website?</string>
+    <string name="profileicon">Profile</string>
+    <string name="name">Name:</string>
+    <string name="bryner_john_z_cagnan">Bryner John Z. Cagnan</string>
+    <string name="_22">22</string>
+    <string name="age">Age:</string>
+    <string name="email">Email:</string>
+    <string name="brynerjohn_cagnan_cit_edu">brynerjohn.cagnan@cit.edu</string>
+    <string name="personality">Personality:</string>
+    <string name="chill">Chill</string>
+    <string name="call_me">Call Me!</string>
+    <string name="profileicon1">Profile</string>
+    <string name="i_dont_get_to_go_out_often_but_i_have_been_to_other_places_before_covid_such_as_bohol_not_specifically_where_though">I dont get to go out often but I have been to other places before covid such as bohol, not specifically where though...</string>
+    <string name="where_i_was_before">Where I was before!</string>
+    <string name="where_i_was_recently">Where I was Recently!</string>
 </resources>

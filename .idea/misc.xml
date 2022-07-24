@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Miku/CSIT284/PortfolioCagnan/app/src/main/res/layout/activity_location.xml" value="0.365625" />
         <entry key="..\:/Miku/CSIT284/PortfolioCagnan/app/src/main/res/layout/activity_locations.xml" value="0.1" />
         <entry key="..\:/Miku/CSIT284/PortfolioCagnan/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Miku/CSIT284/PortfolioCagnan/app/src/main/res/layout/activity_online.xml" value="0.1" />
+        <entry key="..\:/Miku/CSIT284/PortfolioCagnan/app/src/main/res/layout/activity_online.xml" value="0.33" />
         <entry key="..\:/Miku/CSIT284/PortfolioCagnan/app/src/main/res/layout/activity_profile.xml" value="0.33" />
         <entry key="..\:/Miku/CSIT284/PortfolioCagnan/app/src/main/res/layout/test.xml" value="0.1" />
       </map>

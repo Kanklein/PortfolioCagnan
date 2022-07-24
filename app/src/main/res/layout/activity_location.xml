@@ -5,58 +5,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".MainActivity">
+    android:backgroundTint="#000000">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#352F2F"
-        android:fontFamily="serif"
-        android:text="Get to know me abit?"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="202dp"
+        android:layout_height="317dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="303dp"
+        android:contentDescription="@string/profileicon1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.414" />
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@drawable/_0180314_150535" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#352F2F"
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="352dp"
+        android:layout_height="105dp"
         android:fontFamily="serif"
-        android:text="Online Platform?"
+        android:text="@string/i_dont_get_to_go_out_often_but_i_have_been_to_other_places_before_covid_such_as_bohol_not_specifically_where_though"
+        android:textAlignment="center"
+        android:textColor="#FFFCFC"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnBohol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#352F2F"
         android:fontFamily="serif"
-        android:text="Where I've Been?"
+        android:text="@string/where_i_was_before"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587" />
+        app:layout_constraintVertical_bias="0.74" />
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/btnComp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#352F2F"
         android:fontFamily="serif"
-        android:text="Welcome to my Application!"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:text="@string/where_i_was_recently"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintVertical_bias="0.822" />
 </androidx.constraintlayout.widget.ConstraintLayout>

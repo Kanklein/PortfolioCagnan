@@ -4,52 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00FFFFFF"
-    android:backgroundTint="#FFFFFF"
+    android:background="#0C0C0C"
+    android:backgroundTint="#000000"
     android:foregroundTint="@color/white">
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:backgroundTint="#000000"
-        android:contentDescription="Dial"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
-        app:srcCompat="@android:drawable/sym_action_call"
-        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="164dp"
-        android:layout_height="285dp"
+        android:layout_width="264dp"
+        android:layout_height="399dp"
         android:layout_marginStart="106dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="107dp"
         android:layout_marginBottom="303dp"
-        android:contentDescription="Profile"
+        android:contentDescription="@string/profileicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486"
+        app:layout_constraintVertical_bias="0.221"
         app:srcCompat="@drawable/_0180314_150535" />
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="263dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="50dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.244"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.032">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685">
 
         <TableRow
             android:layout_width="match_parent"
@@ -59,13 +43,21 @@
                 android:id="@+id/textView42"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nmae:" />
+                android:background="#000000"
+                android:fontFamily="serif"
+                android:text="@string/name"
+                android:textColor="#F3F0F0"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView38"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" Bryner John Z. Cagnan" />
+                android:background="#000000"
+                android:fontFamily="serif"
+                android:text="@string/bryner_john_z_cagnan"
+                android:textColor="#F3F0F0"
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -76,13 +68,21 @@
                 android:id="@+id/textView43"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Age:" />
+                android:background="#000000"
+                android:fontFamily="serif"
+                android:text="@string/age"
+                android:textSize="18sp"
+                android:textColor="#F3F0F0" />
 
             <TextView
                 android:id="@+id/textView39"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" 22" />
+                android:background="#000000"
+                android:fontFamily="serif"
+                android:text="@string/_22"
+                android:textColor="#F3F0F0"
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -93,13 +93,21 @@
                 android:id="@+id/textView44"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email:" />
+                android:background="#000000"
+                android:fontFamily="serif"
+                android:text="@string/email"
+                android:textColor="#F3F0F0"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView40"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" brynerjohn.cagnan@cit.edu" />
+                android:background="#000000"
+                android:fontFamily="serif"
+                android:text="@string/brynerjohn_cagnan_cit_edu"
+                android:textColor="#F3F0F0"
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -110,14 +118,35 @@
                 android:id="@+id/textView45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Personality:" />
+                android:background="#000000"
+                android:fontFamily="serif"
+                android:text="@string/personality"
+                android:textColor="#F3F0F0"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView41"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" Chill" />
+                android:background="#000000"
+                android:fontFamily="serif"
+                android:text="@string/chill"
+                android:textColor="#F3F0F0"
+                android:textSize="18sp" />
         </TableRow>
     </TableLayout>
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#352F2F"
+        android:fontFamily="serif"
+        android:text="@string/call_me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
