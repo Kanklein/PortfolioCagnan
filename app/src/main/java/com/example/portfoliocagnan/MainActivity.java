@@ -1,11 +1,10 @@
 package com.example.portfoliocagnan;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,31 +20,16 @@ public class MainActivity extends AppCompatActivity {
     private void btnProfileListenerMethod() {
         Intent intent = new Intent(this, ProfileActivity.class);
         Button button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(intent);
-            }
-        });
+        button.setOnClickListener(view -> startActivity(intent));
     }
     private void btnOnlineListenerMethod() {
         Intent intent = new Intent(this, OnlineActivity.class);
         Button button = findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(intent);
-            }
-        });
+        button.setOnClickListener(view -> startActivity(intent));
     }
     private void btnLocationListenerMethod() {
         Intent intent = new Intent(this, LocationsActivity.class);
         Button button = findViewById(R.id.button3);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(intent);
-            }
-        });
+        button.setOnClickListener(view -> startActivity(intent));
     }
 }
